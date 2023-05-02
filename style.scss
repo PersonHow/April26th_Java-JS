@@ -1,0 +1,14 @@
+@import "./node_modules/bootstrap/scss/functions";
+
+@import "./stylesheet/helper/variables";
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+// 自己的CSS
+@import "./stylesheet/pages/home";
+// Course
+@import "./stylesheet/pages/course";
+@import "./stylesheet/pages/courseEdit";
+
+// Student
+@import "./stylesheet/pages/student";

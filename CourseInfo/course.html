@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Course</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div class="course">
+      <div class="title">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand me-4" href="#">CourseSystem</a>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-4 mb-2 mb-lg-0">
+                  <li class="nav-item me-4">
+                    <a class="nav-link active"  href="./Edit.html">Teacher</a>
+                  </li>
+                </ul>
+
+                <ul class="navbar-nav me-4 mb-2 mb-lg-0">
+                  <li class="nav-item me-4">
+                    <a class="nav-link active"  href="../StudentInfo/Student.html">Student</a>
+                  </li>
+                </ul>
+                </div>
+
+            <div class="d-flex">
+                <input type="text" id="searchInput" placeholder="請輸入課程ID或名稱" class="input">
+                <button
+                class="btn btn-outline-success"    type="button" id="searchbtn">
+                Search
+              </button>
+            </div>
+              
+            
+
+            <!-- container-fluid -->
+          </div>
+        </nav>
+      </div>
+
+      <div class="ans">
+        <div class="function">
+            <ul>
+                <li id="li1">老師課程相關操作請按 "Teacher"</li>
+                <li id="li2">內容包含"新建"、"刪除"、"修改"</li>
+                <li>要搜尋所有課程名稱與ID請輸入 "all"</li>
+                <li>學生選課相關請按 "Student"</li>
+            </ul>
+            
+        </div>
+
+        <div class="line">    </div>
+
+        <div class="response">
+            <ul id="textul">
+            <!-- <li id="rli1">搜</li>
+            <li id="rli2">尋</li>
+            <li id="rli3">結</li>
+            <li id="rli4">果</li>
+            <li id="rli5">區</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem eveniet eos similique nostrum adipisci ipsam, rem vitae quidem ad amet iusto expedita, repellat perferendis delectus repellendus numquam, consequatur sequi laborum. Debitis, quod veritatis! Aspernatur eligendi distinctio minus tempora animi quasi delectus laboriosam quia nobis laudantium voluptate nihil at, est, praesentium ab unde itaque officia impedit quaerat debitis dolorum. Fuga itaque ab, aspernatur quas magni molestiae pariatur veniam illo, deleniti dolor et laboriosam dolore eligendi optio esse alias quae eaque doloribus quam eveniet maiores sapiente nam, nobis culpa. Voluptas reprehenderit, minus necessitatibus consequatur voluptatem nihil sapiente, perferendis, quod est nisi eligendi?</li> -->
+            </ul>
+            
+        </div> 
+        
+      </div>
+
+    </div>
+
+
+    <script src="./js/courseSearch.js"></script>
+  </body>
+</html>
